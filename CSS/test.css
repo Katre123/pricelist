@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+	.div{box-sizing:border-box;
+		width: 300px;
+		height: 100 px;
+		background-color: white;
+		
+	}
+	
+
+</style>
+
+</head>
+
+<body>
+
+<h1> UUS MOBIILNE ELU </h1>
+<div class='div'> Mobiilse Elu paketis nüüd veel rohkem sisu. Loo just endale sobiv pakett. </div>
+
+</body>
+</html>

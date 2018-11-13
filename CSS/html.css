@@ -1,0 +1,100 @@
+/*
+body {
+  background-color: #541483;
+  color: #9BBBC5;
+  font-family: Helvetica, Times New Roman, serif;
+}
+
+h1 {
+  color: #778181;
+}
+
+a {
+	color:#fff;
+	
+}
+
+a:hover{
+	color:#53483C;
+}
+
+
+/*a:visited{
+	color:#53583C;
+}
+
+a:active{
+	color:#778181;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.fa-ghost{
+		color:#97C12E;
+}
+
+
+.fa-ghost:hover{
+	color:#fff;
+}
+
+
+.important-link{
+	color:#778181;
+}
+
+.important-link-1{
+	color:#9BBBC5;
+}
+*/
+/*# sourceMappingURL=html.css.map */
+/*
+	.example1{
+		box-sizing:border-box;
+		width: 286px;
+		height: 400px;
+		background-color: white;
+		padding: 40px 40px;    
+		border: 0.1px solid #D3D3D3;
+	}
+	*/
+
+	
+	
+	/*	Service box start */
+	
+.flex-box{
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	background-color:#fff;
+	padding: 20px 40px;
+}
+.box h1{
+	color:#541483;
+	text-transform:uppercase;
+	}
+
+
+.box p{
+	color: black;
+	font-family: Helvetica, Arial;
+}
+
+.box{
+	padding:20px 40px;
+	align-self: center;
+	border-right: 1px solid grey;
+}
+
+.service-box{
+		border-bottom: 1px solid grey;	
+		padding: 20px 40px;
+}
+
+/*Service box end*/
+
+	
+
