@@ -1,0 +1,197 @@
+
+/*# 1. Normalize*/
+
+		h1{ 
+		font-size:2.2em;
+	}
+		h2{
+		font-size:2.0em;
+	}
+	
+		h3{
+		font-size:1.8em;
+	}
+	
+		h4{
+		font-size:1.4em;
+	}
+		h5{
+		font-size:1.2em;
+	}
+		h6{
+		font-size:1.0em;
+	}
+
+	a{color:#541483;
+		}
+		
+/*# 4. Forms*/
+/* . saab määratleda klasse, neid muuta ja kaotada. Eelnevalt tuleks need siis inspekteerida ja täpsustada*/
+.ninja-forms-field:focus{
+	background-color:#9BBBC5;
+	color:#fff !important;
+	border: 2px solid #778181;
+	}
+	
+	
+/* 9. Widgets */
+	/*kolmene tulp teksti ja logod ka lisatud, rohkem infot flex.html lehelt */
+.flex-box{
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	background-color:#fff;
+	padding: 20px 40px;
+}
+.box h1{
+	color:#541483 !important;
+	text-transform:uppercase;
+	}
+
+
+.box p{
+	color: black;
+	font-family: Helvetica, Arial;
+}
+
+.box{
+	padding:20px 40px;
+	align-self: center;
+	border-right: 1px solid grey;
+}
+
+.service-box{
+				padding: 20px 40px;
+					
+}
+
+.box1:hover{
+	transform:scale(1.01)
+}
+
+
+.service-box .fas:hover{
+	transform:rotate(360deg)
+}
+
+.fas{
+color:#9BBBC5;
+transition: 2s;
+}
+
+.box .fas, .box h1{
+	display:flex;
+	justify-content:center;
+}
+	
+/* #10. Content */
+
+/*Võtsin ära ülevalt kaks rida, site title ja site desc. mis olid algselt */
+.site-title, .site-description {
+	display:none; 
+}
+
+/* logo oli algselt keskel, liigutatud vasakule */
+.site-header .site-branding {
+       text-align: inherit;
+	}
+
+/* Loogutasime sliderit, et video ja tekst oleks kenasti keskel, nähtaval, mitte üle äärte, algselt oli max Width: 1700px */
+.page-template-full-width .container{
+	max-width:none;
+}
+
+/*Võtsin ära 'Avaleht' kirja avalehe lehelt. Entry Title sain inspekteerides lehte ja määratledes 'Avaleht' kirja klassi*/
+
+.page-template-full-width .entry-title {
+		display:none;
+}
+
+#content {
+	padding:0;
+}
+
+.entry-content{
+	margin: 0;
+}
+
+/*# 12. Media*/
+
+/* test
+@media only screen and (max-width: 600px){
+	.flex-box {
+	flex-direction: column;
+		}
+	}
+	*/
+
+	
+.flex-box1{
+	display: flex;
+	justify-content: space-around;
+	flex-direction:row;
+	background-color:#fff;
+	padding: 20px 40px;
+}
+
+.service-box1{
+		border-bottom: 1px solid grey;	
+		padding: 20px 40px;
+}
+
+.box1 h1{
+	color:#fff !important;
+	text-transform:uppercase;
+	text-align:center;
+	}
+
+
+.box1 p{
+	color: #fff;
+	font-family: Helvetica, Arial;
+	text-align:center;
+}
+
+.box1{
+	padding:20px 40px;
+	align-self: center;
+	border-right: 1px solid grey;
+}
+
+.box1 {
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 25px 10px 18px #888888;
+	background-color:#541483;
+	font-size:15px;
+	color:#fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .box1 {
+        background-color: lightblue;
+    }
+	.flex-box1{
+		flex-direction:column;
+	}
+}
+
+.box1 .fa{
+	display: flex;
+	justify-content: center;
+	
+}
+
+/* Siit saab alguse hägune joon pealehel*/
+
+div{
+    margin-top:10px;
+}
+.sexy_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
