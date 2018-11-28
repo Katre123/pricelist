@@ -1,0 +1,32 @@
+
+form.shoesizes{
+	text-align:center;
+	padding:10px;
+	width:25%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#ffe6e6;
+}
+
+h2{
+	text-align:center;
+	}
+
+.buttons{
+	padding:10px;
+	margin-top:10px;
+	margin-left:50px;
+}
+
+p{
+	font-size:20px;	
+	}
+
+input[type="number"]{
+	padding:3px;
+	background-color:pink;
+}
+
+button[type="submit"]{
+	margin-left:20px;
+}
