@@ -9,10 +9,10 @@
 	
 	<form class='shoesizes'>
 		<h2> Kinganumbri arvutamise tabel </h2>
-			<p>Sisesta oma kinganumber: <input type="number" name="nr"> </p>
+			<p>Sisesta oma kinganumber: <input type="number" id='size' > </p>
 				<div class='buttons'>
-			<input type='submit' value='ARVUTA!'>
-			<input type='reset' value='TÜHISTA!'> 
+			<input type='button' onclick='shoe()' value='Saada' class='send'> 
+			<input type='reset' class='reset' value='Tühista'>
 			
 			</div>
 		<div id='result'> </div>
