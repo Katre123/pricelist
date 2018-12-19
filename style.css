@@ -1,4 +1,24 @@
 /*
+Theme Name: storechild
+Version: 1.0
+Description: A child theme of Storefront
+Author: Katre
+Template: storefront
+*/
+
+@import url("../storefront/style.css");
+
+.woocommerce-loop-product__title{
+	color:red;
+}
+
+.site-header{
+	background-color:#e6e6ff;
+}
+
+
+
+/*
  Theme Name:   IHELPY Excel Blog Child
  Description:  IHELPY Excel Blog Child Theme
  Author:       Katre V.
@@ -109,7 +129,7 @@
 }
 
 .fas{
-color:#9BBBC5;
+color:#000099;
 transition: 2s;
 }
 
@@ -230,6 +250,28 @@ div{
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
 
+/*Account menu liigutamine paremale poole  */
 
-	
+ul#menu-account-menu {
+	float:right;
+	margin-right:170px;
+}
+
+/*bulltite kaotamine nimekirjas */
+#menu-account-menu ul{
+	list-style-type:none;
+}
+#menu-account-menu li {
+	display:inline; /*Inline kuvab ühel real kui floati kasutada*/
+	padding:6em 1em;
+}
+
+.site-header .widget_product_search {
+    display: none;
+}
+
+.storefront-breadcrumb{
+	display:none;
+}
+
 	

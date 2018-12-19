@@ -69,4 +69,19 @@
 		<div class="col-full">
 
 		<?php
-		do_action( 'storefront_content_top' );
+		do_action( 'storefront_content_top' );?>
+		
+		
+		
+		
+		<?php if ( is_product_category() ) {
+  
+  if ( is_product_category( 'arvutid' ) ) {
+    echo 'Arvutitele -50% soodustust!';
+  } elseif ( is_product_category( 'mobiilid' ) ) {
+    echo 'Mobiilidele -60% soodustust!';
+  } else {
+    echo 'Leia omale sobiv toode kasutades otsingut!';
+  }
+
+} ?>
